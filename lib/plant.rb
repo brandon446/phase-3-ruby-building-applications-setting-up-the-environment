@@ -1,4 +1,5 @@
 class Plant
+  require_relative '../config/environment'
   attr_accessor :garden, :name
 
   @@all = []

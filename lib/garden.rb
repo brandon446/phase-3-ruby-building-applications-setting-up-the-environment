@@ -1,4 +1,5 @@
 class Garden
+  require_relative '../config/environment'
   attr_accessor :name
 
   def initialize(name:)
